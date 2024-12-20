@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 10rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #fff;
+    height: 50px;
+    padding-top: 3px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #000;
+}
+
+.playground,
+.guess,
+.guessingnum{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.playground {
+    margin-top: 15rem;
+}
+
+.guess {
+    margin-top: 5rem;
+}
+
+.guess>button {
+    padding: 10px 1.5rem;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+}
+
+.playground>form>input {
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+
+body {
+    background-color: grey;
+    text-align: center;
+}
+h3,p{
+    margin-top: 1rem;
+ 
+}
